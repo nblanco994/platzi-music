@@ -10,7 +10,7 @@
         .container.has-text-centered
           input.input.is-primary.is-medium.mx-1(style="width: 33%", 
           type="text", 
-          placeholder="Buscar canciones", 
+          placeholder="¿Cuál canción buscas?", 
           v-model="searchQuery", v-on:keyup.enter="search")
           a.button.is-success.is-medium.mx-1(v-on:click="search") Buscar
           a.button.is-primary.is-medium.mx-1 &times;
